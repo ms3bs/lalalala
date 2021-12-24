@@ -4,4 +4,10 @@ jobs:
   testing:
     runs-on: windows-latest
     steps:
-    
+      - uses: actions/checkout@v2
+      - run: cd ${{ github.workspace }}
+      - run: mkdir build 
+      - run: cd build
+      - run: cmake ${{ github.workspace }}
+      - run: cmake --build .
+      - run: ./Debug/SettingUpGoogleTest.exe

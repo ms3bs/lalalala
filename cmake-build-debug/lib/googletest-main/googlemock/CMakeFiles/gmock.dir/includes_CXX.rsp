@@ -1,0 +1,1 @@
+-IC:/Users/Nikita/Documents/SettingUpGoogleTest/lib/googletest-main/googlemock/include -IC:/Users/Nikita/Documents/SettingUpGoogleTest/lib/googletest-main/googlemock -isystem C:/Users/Nikita/Documents/SettingUpGoogleTest/lib/googletest-main/googletest/include -isystem C:/Users/Nikita/Documents/SettingUpGoogleTest/lib/googletest-main/googletest
